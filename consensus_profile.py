@@ -10,6 +10,8 @@ if '>' in data :
     for i in data_array: data_array[data_array.index(i)] = i.split('\n', 1)
     for i in data_array: data_array[data_array.index(i)] = [i[0], i[1].replace('\n', '')]
     
+print(data_array)
+    
     
 # create profile
 prof_sequences = []
