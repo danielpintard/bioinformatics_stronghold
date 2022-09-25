@@ -1,3 +1,4 @@
+# not outputting correct answer 
 data = open('/Users/danielpintard/Downloads/rosalind_lcsm (1).txt', 'r').read()
 # data = open('shared_motif_samdata.txt', 'r').read()
 
