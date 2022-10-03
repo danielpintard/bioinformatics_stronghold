@@ -1,7 +1,7 @@
 import sys
 import requests 
 
-with open('/Users/danielpintard/Downloads/rosalind_mprt (6).txt', 'r') as data:
+with open('/Users/danielpintard/Downloads/rosalind_mprt (5).txt', 'r') as data:
     accession_values = data.read().replace('\n', ' ').split()
     for i in accession_values: accession_values[accession_values.index(i)] = i.split('_')
     for i in accession_values: accession_values[accession_values.index(i)] = i[0]
