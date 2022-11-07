@@ -39,7 +39,7 @@ for sequence in frags:
     
 #the list "translations" is looped through to get rid of duplicate sequences and then return the answer 
 answer = []
-[answer.append(x) for x in translations if x not in answer]
+[answer.append(x) for x in translations if x not in answer] 
 print('\n'.join(answer))
 
         
